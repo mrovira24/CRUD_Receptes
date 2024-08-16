@@ -15,7 +15,7 @@ class ReceptesController extends Controller
      */
     public function index()
     {
-        //
+        //prova
         $receptes = Recepta::all();
 
         return view('receptes.index', compact('receptes'));
